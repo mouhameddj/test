@@ -2,8 +2,8 @@ const sum = require("./sum")
 
 describe(
     'test sum',()=>{
-        test('test 1 + 2 = 3', () => {
-            expect(sum(1,2)).toBe(3)
+        test('test 2-1 = 1', () => {
+            expect(sum(2,1)).toBe(1)
          })
     }
 )
